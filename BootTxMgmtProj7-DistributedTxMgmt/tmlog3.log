@@ -1,0 +1,1 @@
+{"id":"10.147.247.167.tm152982126654900001","wasCommitted":false,"participants":[{"uri":"10.147.247.167.tm1","state":"TERMINATED","expires":1529821567341,"resourceName":"oraXADs"},{"uri":"10.147.247.167.tm2","state":"TERMINATED","expires":1529821567341,"resourceName":"mysqlXADs"}]}

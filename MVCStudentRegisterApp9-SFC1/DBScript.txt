@@ -1,0 +1,5 @@
+SQL> create table  mvc_Student(sno number(5) primary key,sname varchar2(20),sadd varchar2(20),course varchar2(10),percentage number(10,2));
+
+Table created.
+
+SQL> create sequence mvc_stud_seq start with 1 increment by 1;

@@ -1,0 +1,4 @@
+//oracle
+SQL> create table DTxAccount1(acno number(5) primary key,holdername varchar2(20),balance number(10));
+//mysql
+mysql> create table DTXAccount2(acno int(5) primary key,holdername varchar(20),balance int(10));

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MVCWishApp3-AbstractController">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <property name="java-output-path" value="/MVCWishApp3-AbstractController/bin"/>
+        <property name="context-root" value="MVCWishApp4-AbstractController-ParameterizableViewController"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,29 @@
+// Apply the java-library plugin to add support for Java Library
+apply plugin: 'java'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    jcenter()
+}
+
+dependencies {
+  testCompile "junit:junit:3.8.1"
+compile "org.springframework:spring-context:5.0.3.RELEASE"
+compile "javax.transaction:jta:1.1"
+compile "org.springframework:spring-context-support:5.0.3.RELEASE"
+compile "org.springframework:spring-jdbc:5.0.3.RELEASE"
+compile "com.atomikos:atomikos-util:3.7.0"
+compile "com.atomikos:transactions-jta:3.7.0"
+compile "com.atomikos:transactions-jdbc:3.7.0"
+compile "com.atomikos:transactions:3.7.0"
+compile "com.atomikos:transactions-api:3.7.0"
+compile "org.aspectj:aspectjweaver:1.8.10"
+compile "org.aspectj:aspectjrt:1.8.10"    
+// https://mvnrepository.com/artifact/mysql/mysql-connector-java
+compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+compile files ('D:/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar') 
+
+}
+
